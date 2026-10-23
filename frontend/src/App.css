@@ -1,0 +1,185 @@
+
+/* Kristu Jayanti-inspired homepage */
+
+.kj-hero {
+  position: relative;
+  isolation: isolate;
+  min-height: 480px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background:
+    linear-gradient(110deg, #102f4d 0%, #164b68 55%, #317d87 100%);
+  color: #fff;
+}
+
+.kj-hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(ellipse at 85% 20%, #ffffff20, transparent 45%),
+    linear-gradient(90deg, #08243dcc, transparent);
+}
+
+.kj-hero-content {
+  padding-top: 76px;
+  padding-bottom: 76px;
+}
+
+.kj-eyebrow {
+  color: #a76c21;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  margin-bottom: 14px;
+}
+
+.kj-hero .kj-eyebrow {
+  color: #f4d59c;
+}
+
+.kj-hero h1 {
+  max-width: 760px;
+  font-size: clamp(2.4rem, 5vw, 4.4rem);
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+  margin: 0 0 22px;
+}
+
+.kj-hero-description {
+  max-width: 610px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #e4edf4;
+  margin-bottom: 30px;
+}
+
+.kj-hero .btn-outline {
+  color: #fff;
+  border-color: #ffffffa8;
+}
+
+.kj-hero .btn-outline:hover {
+  background: #ffffff18;
+}
+
+.kj-welcome-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 42px;
+  align-items: center;
+}
+
+.kj-welcome-grid > div > p:not(.kj-eyebrow) {
+  line-height: 1.8;
+}
+
+.kj-highlight-panel {
+  background: #f6f3ed;
+  border-left: 4px solid #a76c21;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.kj-highlight-panel h3 {
+  font-size: 1.5rem;
+  line-height: 1.35;
+  margin: 0 0 18px;
+  color: #173c58;
+}
+
+.kj-highlight-panel .check-list {
+  padding-left: 20px;
+  line-height: 1.9;
+}
+
+.kj-text-link {
+  display: inline-block;
+  margin-top: 12px;
+  color: #174f70;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.kj-text-link:hover {
+  text-decoration: underline;
+}
+
+.kj-school-card {
+  height: 100%;
+  border-top: 3px solid #a76c21;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.kj-school-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px #152e4215;
+}
+
+.kj-school-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  background: #edf2f5;
+  color: #174f70;
+  font-size: 1.65rem;
+  margin-bottom: 14px;
+}
+
+.kj-school-card h3 {
+  color: #173c58;
+}
+
+.kj-school-card p {
+  line-height: 1.7;
+}
+
+.kj-contact-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.kj-contact-strip h2 {
+  color: #173c58;
+}
+
+@media (max-width: 760px) {
+  .kj-hero {
+    min-height: 420px;
+  }
+
+  .kj-hero-content {
+    padding-top: 54px;
+    padding-bottom: 54px;
+  }
+
+  .kj-welcome-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .kj-contact-strip {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .kj-contact-strip .hero-actions {
+    flex-wrap: wrap;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kj-school-card {
+    transition: none;
+  }
+
+  .kj-school-card:hover {
+    transform: none;
+  }
+}

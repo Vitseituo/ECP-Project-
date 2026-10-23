@@ -1,0 +1,38 @@
+{
+  "_note": "SAMPLE DATA — Replace with your official college information.",
+  "name": "Kristu Jayanti College (Sample Site)",
+  "tagline": "Learning, Leadership, and Service",
+  "established": "1999 (sample placeholder)",
+  "location": {
+    "campus": "Sample Campus Address",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "pin": "560077",
+    "country": "India"
+  },
+  "about": {
+    "summary": "This is a sample college profile for demonstration. The institution focuses on undergraduate and postgraduate programmes, holistic development, and community engagement. Replace this text with your official college history and mission.",
+    "vision": "To nurture competent professionals with ethical values (sample).",
+    "mission": "To provide quality education through innovative teaching and research (sample)."
+  },
+  "departments": [
+    "Commerce and Management (sample)",
+    "Computer Science and IT (sample)",
+    "Life Sciences (sample)",
+    "Humanities and Languages (sample)",
+    "Social Sciences (sample)"
+  ],
+  "contact": {
+    "phone": "+91 00000 00000 (sample — replace with official number)",
+    "email": "info@example-college.edu (sample)",
+    "admissions_email": "admissions@example-college.edu (sample)",
+    "office_hours": "Monday to Friday, 9:00 AM to 4:00 PM (sample)"
+  },
+  "hostel": {
+    "available": true,
+    "description": "Sample: Separate hostel facilities may be available for men and women. Rules, fees, and availability are subject to official policy. Contact the administration for current details."
+  },
+  "library": {
+    "description": "Sample: Central library with books, journals, and digital resources. Opening hours and membership rules are set by the college. Check with the library desk for updates."
+  }
+}

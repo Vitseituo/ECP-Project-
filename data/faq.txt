@@ -1,0 +1,19 @@
+SAMPLE FAQ — Replace with official answers.
+
+Q: Where is the college located?
+A: See college_info.json location fields (sample address). Use your official address in production.
+
+Q: How do I apply for admission?
+A: Follow the steps in admissions.txt and contact the admissions office for the current year.
+
+Q: Are hostel facilities available?
+A: Sample: Hostel may be available; confirm fees and rules with the administration.
+
+Q: What are the library timings?
+A: Sample: Contact the library or check the official notice board / website.
+
+Q: How can I reach the admissions team?
+A: Use the contact emails and phone numbers in college_info.json (replace with official details).
+
+Q: Does the college help with placements?
+A: Sample: Many institutions run placement cells; ask the placement office for recruiter lists and statistics from official sources only.
